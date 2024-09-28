@@ -1,26 +1,20 @@
-input[type='number'] {
-    padding: 5px;
-    width: 50px;
-  }
-  
-  form label {
-    padding-left: 20px;
-  }
-  
-  .result-style {
-    display: flex;
-    text-align: left;
-    width: 80%;
-    margin: auto;
-    margin-top: 30px;
-    border-radius: 20px;
-    box-shadow: 0 5px 30px rgb(0 0 0 / 0.7);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    box-sizing: border-box;
-  }
-  
-  img {
-    max-height: 200px;
-    padding-right: 20px;
-    border-radius: 20px;
-  }
+body{
+  background-color: rgb(54, 54, 54);
+}
+
+pre{
+  text-align: center;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding: 20px;
+}
+.centro{
+  display: flex;
+  justify-content: center;
+}
+
+img{
+  display: block;
+  border-radius: 50%;
+}
