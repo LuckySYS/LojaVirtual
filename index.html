@@ -5,8 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js" integrity="sha512-wC/cunGGDjXSl9OHUH0RuqSyW4YNLlsPwhcLxwWW1CR4OeC2E1xpcdZz2DeQkEmums41laI+eGMw95IJ15SS3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
 
@@ -146,23 +149,26 @@
 
             <h2>Nike Dunk</h2>
             <img src="https://sneakersul.com.br/cdn/shop/files/nike-dunk-low-cacao-wow-1.webp?v=1712064167" alt="" class="tenis">
-            <button>COMPRAR</button>
+            <p>550,00&#36;</p>
+            <a href=""><button>COMPRAR</button></a>
 
           </div>
 
           <div class="card">
 
             <h2>Nike Dunk</h2>
-            <img src="https://sneakersul.com.br/cdn/shop/files/nike-dunk-low-cacao-wow-1.webp?v=1712064167" alt="" class="tenis">
-            <button>COMPRAR</button>
+            <img src="https://sneakersul.com.br/cdn/shop/files/nike-dunk-low-feminino-active-fuchsia-rosa-1.webp?v=1712063279" alt="" class="tenis">
+            <p>550,00&#36;</p>
+            <a href=""><button>COMPRAR</button></a>
 
           </div>
 
           <div class="card">
 
             <h2>Nike Dunk</h2>
-            <img src="https://sneakersul.com.br/cdn/shop/files/nike-dunk-low-cacao-wow-1.webp?v=1712064167" alt="" class="tenis">
-            <button>COMPRAR</button>
+            <img src="https://sneakersul.com.br/cdn/shop/files/nike-dunk-low-feminino-rose-whisper-rosa.webp?v=1711928528" alt="" class="tenis">
+            <p>550,00&#36;</p>
+            <a href=""><button>COMPRAR</button></a>
 
           </div>
 
@@ -175,5 +181,42 @@
     </section>
 
   </main>
+
+  <footer>
+    <div class="interface">
+
+      <section class="top-footer">
+
+        <a href="#"><button><i class="bi bi-instagram"></i></button></a>
+        <a href="#"><button><i class="bi bi-facebook"></i></button></a>
+        <a href="#"><button><i class="bi bi-whatsapp"></i></button></a>
+
+      </section>
+      <section class="middle-footer">
+
+        <a href="#">Suporte</a>
+        <a href="#">Informações</a>
+        <a href="#">Marketing</a>
+
+      </section>
+
+      <section class="bottom-footer">
+        <p>&copy; Todos os direitos reservados</p>
+      </section>
+
+    </div>
+  </footer>
+
+<script>
+
+VanillaTilt.init(document.querySelectorAll(".card"), {
+		max: 25,
+		speed: 400,
+    glare: true,
+    "max-glare": 0.5
+	});
+
+</script>
+
 </body>
 </html>
