@@ -70,11 +70,13 @@ header .pesqui-perfil input{
   border: 1px solid rgb(117, 117, 117);
   border-radius: 35px;
   padding: 10px;
+  color: white;
 }
 
 .menu-desktop nav a:hover{
   color: rgb(230, 230, 230);
   transform: scale(1.05);
+  text-decoration: underline;
 }
 
 .topo-do-site .interface .flex .img-topo-site img{
@@ -148,4 +150,87 @@ section.topo-do-site .flex .txt-topo-site #detalhe:hover{
   color: white;
   border: none;
   color: black;
+}
+
+section.meio-do-site{
+  margin-top: 30px;
+}
+
+section.meio-do-site .flex{
+  align-items: center;
+  justify-content: center;
+}
+
+section.meio-do-site .flex .produto{
+  margin-left: 45px;
+  border: 1px solid rgb(59, 59, 59);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .5s;
+  box-shadow: 2px 2px 2px rgb(41, 41, 41);
+}
+
+section.meio-do-site .flex .produto img{
+  max-width: 300px;
+  box-shadow: 0px 0px 5px rgb(65, 65, 65);
+}
+
+section.meio-do-site .flex .produto p{
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+section.meio-do-site .flex a{
+  text-decoration: none;
+  color: white;
+}
+
+section.meio-do-site .flex .produto .estrela{
+  color: #2CA4BF;
+}
+
+section.meio-do-site .flex .produto:hover{
+  transform: translateY(-10px);
+}
+
+section.penultimo-do-site{
+  margin-top: 100px;
+  background-color: rgb(22, 22, 22);
+}
+
+section.penultimo-do-site .interface .flex img{
+  max-width: 400px;
+}
+
+section.penultimo-do-site .interface .flex{
+  align-items: center;
+  justify-content: center;
+}
+
+section.penultimo-do-site .interface .flex .penultimo-txt-site h1{
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+section.penultimo-do-site .interface .flex .penultimo-txt-site p{
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+section.final-do-site{
+  margin-top: 100px;
+}
+
+section.final-do-site .interface .flex{
+  align-items: center;
+  justify-content: center;
+}
+
+section.final-do-site .interface .flex .card{
+
+}
+
+section.final-do-site .interface .flex .card img.tenis{
+  max-width: 250px;
 }
