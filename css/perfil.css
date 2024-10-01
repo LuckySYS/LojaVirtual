@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  body{
+    background-color: black;
+    color: white;
+  }
+  
+  .flex{
+    display: flex;
+  }
+  
+  .interface{
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  
+  /* Estilo do Header*/
+  
+  header{
+    width: 100%;
+    padding: 40px 0px;
+  }
+  
+  header .interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo img{
+    max-width: 100px;
+  }
+  
+  header .pesqui-perfil img{
+    max-width: 40px;
+    margin: 10px;
+  }
+  
+  header .menu-desktop nav ul{
+    list-style-type: none;
+  }
+  
+  header .menu-desktop nav ul li{
+    display: inline-block;
+    margin: 0 40px;
+  }
+  
+  header .menu-desktop nav ul li a{
+    text-decoration: none;
+    color: rgb(177, 177, 177);
+    display: inline-block;
+    transition: .2s;
+  }
+  
+  header .pesqui-perfil{
+    display: flex;
+    align-items: center;
+  }
+  
+  header .pesqui-perfil input{
+    width: 150px;
+    height: 30px;
+    margin: 20px;
+    background-color: transparent;
+    border: 1px solid rgb(117, 117, 117);
+    border-radius: 35px;
+    padding: 10px;
+    color: white;
+  }
+  
+  .menu-desktop nav a:hover{
+    color: rgb(230, 230, 230);
+    transform: scale(1.05);
+    text-decoration: underline;
+  }
+
+  section.topo-do-site .interface .flex{
+    justify-content: center;
+    margin-top: 30px;
+    gap: 45px;
+  }
+
+section.topo-do-site .interface .flex .img-perfil .editar-perfil{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+section.topo-do-site .interface .flex .img-perfil .editar-perfil p{
+    font-weight: bolder;
+}
+
+section.topo-do-site .interface .flex .img-perfil img{
+    max-width: 50px;
+}
+
+section.topo-do-site .interface .flex .img-perfil .minha-conta h2{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+section.topo-do-site .interface .flex .img-perfil .minha-conta ul{
+     list-style-type: none;
+}
+
+section.topo-do-site .interface .flex .img-perfil .minha-conta ul li{
+    margin-bottom: 20px;
+}
+
+section.topo-do-site .interface .flex .img-perfil .minha-conta ul li a{
+    text-decoration: none;
+    color: rgb(141, 141, 141);
+    transition: .2s;
+}
+
+section.topo-do-site .interface .flex .img-perfil .minha-conta ul li a:hover{
+    color: #2CA4BF;
+}
+
+section.topo-do-site .interface .flex .config{
+    display: flex;
+    width: 980px;
+    height: 500px;
+    background-color: rgb(61, 61, 61);
+    padding: 30px;
+    border-radius: 10px;
+    gap: 200px;
+    justify-content: center;
+}
+
+section.topo-do-site .interface .flex .config .txt-config .meu-perfil-config{
+    margin-bottom: 80px;
+}
+
+section.topo-do-site .interface .flex .config .txt-config .meu-perfil-config h2{
+    font-size: 22px;
+}
+
+section.topo-do-site .interface .flex .config .txt-config .meu-perfil-config p{
+    font-size: 12px;
+    color: rgb(175, 175, 175);
+}
+
+section.topo-do-site .interface .flex .config .txt-config .Informacao .info{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+section.topo-do-site .interface .flex .config .txt-config .Informacao .info label{
+    margin-right: 15px;
+    color: rgb(185, 185, 185);
+}
+
+section.topo-do-site .interface .flex .config .txt-config .Informacao input{
+    height: 20px;
+    width: 180px;
+    border-radius: 5px;
+    border: none;
+}
+
+section.topo-do-site .interface .flex .config .txt-config .Informacao .info p{
+    margin-right: 10px;
+}
+
+section.topo-do-site .interface .flex .config .txt-config .Informacao .info a{
+    color: #2CA4BF;
+}
+
+
+section.topo-do-site .interface .flex .config .img-config button{
+    display: block;
+    margin-left: 65px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    background-color: #2CA4BF;
+    font-weight: 400;
+}
+
+section.topo-do-site .interface .flex .config .img-config a{
+    text-decoration: none;
+}
+
+section.topo-do-site .interface .flex .config .img-config p{
+    color: rgb(151, 151, 151);
+    margin-bottom: 15px;
+}
+
+section.topo-do-site .interface .flex .config .img-config{
+    margin-top: 80px;
+    text-align: center;
+}
+
+section.topo-do-site .interface .flex .config .img-config img{
+    max-width: 100px;
+}
+
